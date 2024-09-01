@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".play_activity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/quiz"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/queston_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the question"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="5dp"
+        android:background="#CDDC39"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<RadioButton
+    android:id="@+id/option1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="#8198AB"
+    android:text="option1"
+    android:textStyle="bold"
+    android:textSize="25dp"
+    android:layout_marginHorizontal="30dp"/>
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#8198AB"
+            android:text="option1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="30dp"/>
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#8198AB"
+            android:text="option1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="30dp"/>
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#8198AB"
+            android:text="option1"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="30dp"/>
+
+    </RadioGroup>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next Quiz"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="45dp"
+     android:background="#28D82F"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

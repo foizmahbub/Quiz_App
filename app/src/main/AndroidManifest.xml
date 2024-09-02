@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Quiz_test"
         tools:targetApi="31">
         <activity
+            android:name=".result_view"
+            android:exported="false" />
+        <activity
             android:name=".play_activity"
             android:exported="false" />
         <activity
